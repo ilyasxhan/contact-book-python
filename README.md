@@ -36,7 +36,7 @@ contact-book-python/
 1. Clone the repository
 
 ```bash
-git clone https://github.com/ilyasxkhan/contact-book-python.git
+git clone https://github.com/m-khanai/contact-book-python.git
 ```
 
 2. Move into the project folder
@@ -80,6 +80,6 @@ python contact_book.py
 
 ## Author
 
-Muhammad Ilyas Khan
-GitHub: github.com/ilyasxkhan
+Muhammad Khan
+GitHub: github.com/m-khanai
 
