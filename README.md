@@ -4,6 +4,10 @@ A simple command-line Contact Book application built using Python.
 
 This project allows users to store contact names and phone numbers, view saved contacts, delete contacts, and automatically save data using a JSON file.
 
+## Demo
+
+![Contact Book Demo](contact-book-demo.png) 
+
 ## Features
 
 * Add new contacts
