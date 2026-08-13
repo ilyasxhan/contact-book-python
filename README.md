@@ -84,6 +84,6 @@ python contact_book.py
 
 ## Author
 
-Muhammad Khan
-GitHub: github.com/m-khanai
+Muhammad Ilyas Khan
+GitHub: github.com/ilyasxhan
 
