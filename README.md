@@ -1,59 +1,36 @@
-# Contact Book in Python
+# 📇 Contact Book in Python
 
-A simple command-line Contact Book application built using Python.
+A command-line contact manager built with Python. Store names, phone numbers and emails, search and edit them, and export everything to CSV. Data is saved automatically to a JSON file.
 
-This project allows users to store contact names and phone numbers, view saved contacts, delete contacts, and automatically save data using a JSON file.
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 ## Demo
 
-![Contact Book Demo](contact-book-demo.png) 
+![Contact Book Demo](contact-book-demo.png)
 
 ## Features
 
-* Add new contacts
-* View all saved contacts
-* Delete contacts
-* Automatic JSON data storage
-* Duplicate contact protection using a custom exception
-* Error handling for missing or invalid JSON files
-
-## Technologies Used
-
-* Python
-* JSON
-* File Handling
-* Exception Handling
-
-## Project Structure
-
-```text
-contact-book-python/
-│
-├── contact_book.py
-├── contacts.json
-├── README.md
-└── .gitignore
-```
+- ➕ Add contacts with phone number and optional email
+- 📋 View all contacts, sorted alphabetically
+- 🔍 Search by name, phone or email
+- ✏️ Update an existing contact
+- 🗑️ Delete contacts (with confirmation)
+- 📤 Export contacts to CSV
+- ✅ Phone and email validation
+- 🔠 Case-insensitive names ("Ali" and "ali" are the same contact)
+- 💾 Automatic JSON storage, with old save files upgraded automatically
+- 🛡️ Handles missing or corrupted JSON files gracefully
 
 ## How to Run
 
-1. Clone the repository
-
 ```bash
-git clone https://github.com/m-khanai/contact-book-python.git
-```
-
-2. Move into the project folder
-
-```bash
+git clone https://github.com/ilyasxkhan/contact-book-python.git
 cd contact-book-python
-```
-
-3. Run the program
-
-```bash
 python contact_book.py
 ```
+
+No external libraries needed — only the Python standard library.
 
 ## Sample Menu
 
@@ -61,29 +38,49 @@ python contact_book.py
 --- Contact Book ---
 1. Add Contact
 2. View Contacts
-3. Delete Contact
-4. Exit
+3. Search Contacts
+4. Update Contact
+5. Delete Contact
+6. Export to CSV
+7. Exit
 ```
+
+## Running Tests
+
+```bash
+pip install pytest
+python -m pytest
+```
+
+## Project Structure
+
+```text
+contact-book-python/
+├── contact_book.py        # the app
+├── test_contact_book.py   # tests (pytest)
+├── contact-book-demo.png  # screenshot for this README
+├── README.md
+├── LICENSE
+└── .gitignore
+```
+
+`contacts.json` and `contacts.csv` are created when you run the app and are not tracked by git.
 
 ## Concepts Practiced
 
-* Functions
-* Dictionaries
-* JSON file handling
-* Custom Exceptions
-* Try and Except blocks
-* Menu-driven applications
+- Functions and dictionaries
+- JSON and CSV file handling
+- Custom exceptions and `try` / `except`
+- Input validation with regular expressions
+- Menu-driven program design using a dispatch dictionary
+- Unit testing with pytest
 
 ## Future Improvements
 
-* Update contact information
-* Search contacts
-* Sort contacts alphabetically
-* Store email addresses
-* Export contacts to CSV
+- Store contacts in SQLite instead of JSON
+- Add birthdays and reminders
+- Build a GUI with Tkinter or a web version with Flask
 
 ## Author
 
-Muhammad Ilyas Khan
-GitHub: github.com/ilyasxhan
-
+**Muhammad Ilyas Khan** — [github.com/ilyasxkhan](https://github.com/ilyasxkhan)
