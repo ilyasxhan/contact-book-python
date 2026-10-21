@@ -25,7 +25,7 @@ A command-line contact manager built with Python. Store names, phone numbers and
 ## How to Run
 
 ```bash
-git clone https://github.com/ilyasxkhan/contact-book-python.git
+git clone https://github.com/ilyasxhan/contact-book-python.git
 cd contact-book-python
 python contact_book.py
 ```
@@ -83,4 +83,4 @@ contact-book-python/
 
 ## Author
 
-**Muhammad Ilyas Khan** — [github.com/ilyasxkhan](https://github.com/ilyasxkhan)
+**Muhammad Ilyas Khan** — [github.com/ilyasxhan](https://github.com/ilyasxhan)
